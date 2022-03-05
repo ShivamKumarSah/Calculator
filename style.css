@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    height: 100vh;
+    background-color: rgb(232, 250, 250);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(177, 252, 252);
+    border-radius: 15px;
+    box-shadow: 3px 3px 25px rgb(72, 243, 243);
+
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.operations .box,
+.fx-btn .box {
+    background-color: rgb(44, 212, 212);
+    color: white;
+}
+
+.operations .box:hover,
+.fx-btn .box:hover {
+    background-color: rgba(44, 212, 212, 0.582);
+    box-shadow: 3px 3px 25px rgb(72, 243, 243);
+    color: rgb(3, 121, 121);
+}
+
+.numbers .box {
+    background-color: white;
+    color: rgb(3, 121, 121);
+    font-weight: 700;
+}
+
+.numbers .box:hover {
+    background-color: rgba(255, 255, 255, 0.445);
+    color: rgb(3, 121, 121);
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    margin: 1px;
+    cursor: pointer;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.display {
+    width: 190px;
+    display: flex;
+    justify-content: flex-end;
+    flex-shrink: 3;
+    font-size: 45px;
+    padding: 10px;
+    color: rgb(3, 121, 121);
+    background-color: rgba(255, 255, 255, 0.521);
+    overflow-x: hidden;
+}
+
+.func-btns {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+}
+
+.fx-nums {
+    display: flex;
+    flex-direction: column;
+}
+
+.fx-btn {
+    display: flex;
+
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+}
+
+.operations {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row {
+    display: flex;
+}
+
+.second-row {
+    display: flex;
+}
+
+.third-row {
+    display: flex;
+}
+
+.last-row {
+    display: flex;
+}
